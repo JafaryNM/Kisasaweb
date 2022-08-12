@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+{% load static %}
+
+<main>
+    <!--? slider Area Start-->
+    <div class="slider-area ">
+        <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="{% static 'assets/img/hero/about.jpg'%}" style="background-image: url(&quot;assets/img/hero/about.jpg&quot;);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap">
+                            <h2>About us</h2>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="#">About</a></li> 
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider Area End-->
+    <div class="about-low-area section-padding30">
+        <div class="container">
+         <div class="row">
+         <div class="col-lg-6 col-md-12">
+         <div class="about-caption mb-50">
+        
+        <div class="section-tittle mb-35" id="about-sec">
+    
+        <h2>We have more than 10 years of expirences </h2>
+        <p>
+            Kisasa Trading Company Ltd is a reputable company owned by Tanzanian 
+            citizens by 100%. The company was established since 2009 with the aim of rendering services 
+            and general supplies, Building works and supplying Building Materials, Civil works, Mining 
+            explorations works, Soil exploration works as well as soil investigations, site planning
+             Housekeeping and industrial food and beverages.In addition we offer training on equipments, testing and installation services.
+
+        </p>
+        <h2>Our Mission </h2>
+        <p>
+            The Company has a mission of providing and doing a high quality Works, Materials,
+             Goods and Services to our customers.
+        </p>
+        <h2>Our Vision </h2>
+        
+            <p>
+                The Vision of the Company is to become the best and reliable in Technical support, 
+                Supplying and Repairing in East Africa to support users in achieving their targeted plans.
+            </p>
+        
+        </div>
+      
+
+       
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+        
+       
+        <div class="about-back-img d-none d-lg-block" id="about-img">
+        <img src="{% static 'assets/img/gallery/about2.jpg'%}" alt="" data-pagespeed-url-hash="4532874" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+  
+{% endblock contents %}
