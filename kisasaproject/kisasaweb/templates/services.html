@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% block contents %}
+{% load static %}
+
+<div class="slider-area ">
+    <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="{% static 'assets/img/hero/about.jpg'%}">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap">
+                        <h2>Our Services</h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="row">
+    <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="blog_left_sidebar p-5">
+            <article class="blog_item">
+                <div class="blog_item_img">
+                    <img class="card-img rounded-0" src="{% static 'assets/img/blog/single_blog_1.jpg'%}" alt="">
+                    <a href="#" class="blog_item_date">
+                        <h3> Financial Advisor</h3>
+                        
+                    </a>
+                </div>
+
+                <div class="blog_details">
+                    
+                    <p>Our in-house investment professionals and financial advisers work in tandem to build a portfolio that’s 
+                        laser-focused on achieving your objectives.</p>
+                     <p> We aim to generate the best returns for you, based on your
+                         individual level of risk, while safeguarding the assets you’ve entrusted us with..</p>
+                
+                </div>
+            </article>
+
+        </div>
+        <div class="blog_left_sidebar p-5">
+            <article class="blog_item">
+                <div class="blog_item_img">
+                    <img class="card-img rounded-0" src="{% static 'assets/img/blog/single_blog_3.jpg'%}" alt="">
+                    <a href="#" class="blog_item_date">
+                        <h3> General Supply</h3>
+                        
+                    </a>
+                </div>
+
+                <div class="blog_details">
+                    
+                    <p>Kisasa Trading Co Ltd  understands the need for high quality products and materials. 
+                        we offers a comprehensive procurement services such as warehousing and distribution to companies
+                         operating in Tanzania. We can tailor make a procurement and general supply solution that is right 
+                         for our client’s needs</p>
+
+                    <h2>Some Of Our Focus Products </h2>
+
+
+                    <ul>
+                        <li> Cement Bricks </li>
+                        <li> Roofing Sheets </li>
+                        <li>Transport including Boxer Motorcycle, Three wheelers (Bajaj) </li>
+                        <li> Cements.</li>
+
+                    </ul>
+                     
+                
+                </div>
+            </article>
+
+        </div>
+        <div class="blog_left_sidebar p-5">
+            <article class="blog_item">
+                <div class="blog_item_img">
+                    <img class="card-img rounded-0" src="{% static 'assets/img/blog/single_blog_2.jpg'%}" alt="">
+                    <a href="#" class="blog_item_date">
+                        <h3> Civil & Building Works</h3>
+                        
+                    </a>
+                </div>
+
+                <div class="blog_details">
+                    
+                    <p>Building Division is one of the core division of the company, having done some sophisticated projects we managed to deliver them on time with the best quality as expected, since establishment we manage to deliver several buildings projects for our customers including 
+                        Educational Institutions, Banking, Corporate and Recreational centers.</p>
+                   
+                </div>
+            </article>
+
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="blog_right_sidebar p-5">
+            
+
+            <aside class="single_sidebar_widget post_category_widget ">
+                <h4 class="widget_title">Our Services</h4>
+                <ul class="list cat-list">
+                    <li>
+                        <a href="#" class="d-flex">
+                            <p>Financial Advisor</p>
+                           
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex">
+                            <p>General Supply</p>
+                        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="d-flex">
+                            <p>Civils & Building Works</p>
+                        
+                        </a>
+                    </li>
+                  
+                   
+                </ul>
+            </aside>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

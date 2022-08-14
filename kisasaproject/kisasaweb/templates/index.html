@@ -15,7 +15,7 @@
                             <div class="hero__caption ">
                                 <h1 > More Than <span>10 Years</span> Of Expirences </h1>
                                 <p mb-30>
-                                   We are experties on general supply, building works, supply materials
+                                   We are experties financial advisers on general supply, building works, supply materials
                                        civils works ,Mining explorations..</p>
                                <a href=" {% url 'about_page' %}" class="btn">Our Services</a>
                             </div>
@@ -45,10 +45,13 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
                             <span>About Us</span>
-                            <h2>We have more than 10 years of Expirences</h2>
+                            <h2>We Are The Best Company </h2>
                         </div>
                         <p>Kisasa Trading Company Ltd is a reputable company owned by Tanzanian citizens by 100%. 
-                        The company was established since 2009 with the aim of rendering services and general supplies, Building works and supplying Building Materials, Civil works, Mining explorations works, Soil exploration work</p>
+                        The company was established since 2009 with the aim of rendering services and general supplies, 
+                        Building works and supplying Building Materials, Civil works, Mining explorations works, Soil exploration work.
+                        Our in-house investment professionals and financial advisers work in tandem to 
+                        build a portfolio that’s laser-focused on achieving your objectives.</p>
                         <div class="text-center">
                             <a href=" {% url 'about_page' %}" class="btn btn-about">More About Us</a>
                         </div>
@@ -74,11 +77,26 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
+                            <span class="flaticon-plane"></span>
+                            
+                        </div>
+                        <div class="cat-cap"> 
+                            <h5><a href="{% url 'service_page' %}">Financial advisers</a></h5>
+                             <p>Our in-house investment professionals and financial advisers work in tandem 
+                                to build a portfolio that’s laser-focused on achieving your objectives..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-cat text-center mb-50">
+                        <div class="cat-icon">
                             <span class="flaticon-shipped"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">General Supply</a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
+                            <h5><a href="{% url 'service_page' %}">General Suppply </a></h5>
+                            <p>Kisasa Trading Co Ltd understands the need for high quality products and materials. 
+                                we offers a comprehensive procurement services ..</p>
+                        
                         </div>
                     </div>
                 </div>
@@ -88,27 +106,18 @@
                             <span class="flaticon-ship"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Financial Advisor </a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-plane"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="services.html">Civil And Building Works</a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
+                            <h5><a href="{% url 'service_page' %}">Civil & Building Works</a></h5>
+                            <p>Building Division is one of the core division of the company, having done 
+                                some sophisticated projects we managed to deliver them on time with the best quality as expected...
+                               </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <a href="about.html" class="btn pull-center servicelink">View More</a>
+                <a href="{% url 'service_page' %}" class="btn pull-center servicelink">View More</a>
             </div>
-       
+  
         </div>
     </div>
     
@@ -128,7 +137,7 @@
                         <!-- Testimonial Content -->
                         <div class="testimonial-caption ">
                             <div class="testimonial-top-cap">
-                                <p>Srem ipsum adolor dfsit amet, consectetur adipiscing elit, sed dox beiusmod tempor incci didunt ut labore et dolore magna aliqua. Quis cipsucm suspendisse ultrices gravida. Risus commodo vivercra maecenas accumsan lac.</p>
+                                <p>They give us awesome services.</p>
                             </div>
                             <!-- founder -->
                             <div class="testimonial-founder d-flex align-items-center">
@@ -136,8 +145,8 @@
                                     <img src="{% static 'assets/img/gallery/Homepage_testi.png'%}" alt="">
                                 </div>
                                 <div class="founder-text">
-                                    <span>Jhaon smith</span>
-                                    <p>Manage Director</p>
+                                    <span>John Samweli</span>
+                                    <p>TPDC in Mtwara</p>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +156,7 @@
                         <!-- Testimonial Content -->
                         <div class="testimonial-caption ">
                             <div class="testimonial-top-cap">
-                                <p>Srem ipsum adolor dfsit amet, consectetur adipiscing elit, sed dox beiusmod tempor incci didunt ut labore et dolore magna aliqua. Quis cipsucm suspendisse ultrices gravida. Risus commodo vivercra maecenas accumsan lac.</p>
+                                <p>They give us awesom sevices.</p>
                             </div>
                             <!-- founder -->
                             <div class="testimonial-founder d-flex align-items-center">
@@ -155,8 +164,8 @@
                                     <img src="{% static 'assets/img/gallery/Homepage_testi.png'%}" alt="">
                                 </div>
                                 <div class="founder-text">
-                                    <span>Jhaon smith</span>
-                                    <p>Creative designer</p>
+                                    <span>John Samweli</span>
+                                    <p>TPDC in Mtwara</p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +177,8 @@
                 <div class="testimonial-form text-center">
                     <h3>Always listening, always understanding.</h3>
                     
-                    <a href="about.html" class="btn pull-center servicelink">Get A Quotes</a>
+                    
+                    <a href="{% url 'contact_page' %}" class="btn pull-center servicelink">Get A Quotes</a>
                 </div>
             </div>
             <!-- Form End -->
@@ -189,13 +199,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="single-team mb-30 text-center">
                         <div class="team-img">
-                            <img src="{% static 'assets/img/gallery/team1.png'%}" alt="">
+                            <img src="{% static 'assets/img/gallery/team1.jfif'%}" alt="">
                             <div class="team-caption">
-                                <h3><a href="#">Major Nkunda</a></h3>
-                                <p>Health agent</p>
+                                <h3><a href="#">(Major rtd) Joseph Sengo Mkunda</a></h3>
+                                <p>Manage Director</p>
                                 <!-- Blog Social -->
                                 <div class="team-social">
                                     <ul>
@@ -209,13 +219,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="single-team mb-30 text-center">
                         <div class="team-img">
-                            <img src="{% static 'assets/img/gallery/team2.png'%}" alt="">
+                            <img src="{% static 'assets/img/gallery/team2.JFIF '%}" alt="">
                             <div class="team-caption">
-                                <h3><a href="#">Masanja Masanja</a></h3>
-                                <p>Health agent</p>
+                                <h3><a href="#">Richard Michael Masanja</a></h3>
+                                <p> Director (Finance & Administration). <t/p>
                                 <!-- Blog Social -->
                                 <div class="team-social">
                                     <ul>
@@ -229,26 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="single-team mb-30 text-center">
-                        <div class="team-img">
-                            <img src="{% static 'assets/img/gallery/team3.png'%}" alt="">
-                            <div class="team-caption">
-                                <h3><a href="#">Jamal John</a></h3>
-                                <p>Health agent</p>
-                                <!-- Blog Social -->
-                                <div class="team-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fas fa-globe"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+             
             </div>
         </div>
     </div>

@@ -15,3 +15,6 @@ class AboutPage(TemplateView):
 
 class ContactUs(TemplateView):
     template_name="contact.html"
+
+class ServicesPage (TemplateView):
+    template_name='services.html'
