@@ -76,8 +76,21 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">                                                                                
-                                            <li><a href="{% url 'index_page' %}       ">Home</a></li>
-                                            <li><a href="{% url 'about_page' %}       ">About</a></li>
+                                            <li><a href="{% url 'index_page' %}      ">Home</a></li>
+                                             <li><a href="{% url 'about_page' %} ">About</a>
+                                                <ul class="submenu">
+                                                   
+                                                    <li><a href=" {% url 'organization_page' %}">Organization Structure</a></li>
+                                                    <li><a href=" {% url 'vision_page' %}">Vision & Mission</a></li>
+                                                    <li><a href="">Managing Profile</a>
+                                                        <ul class="submenu secondsubmen">
+                                                            <li><a href=" {% url 'masanjaprofile' %}">Director Of Finance & Administration</a></li>
+                                                            <li><a href=" {% url 'nkundaprofile' %}">Managing Director Of Operations</a></li>
+                                                        
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                             <li><a href="{% url 'service_page' %}   ">Services</a></li>
                                             <li><a href="{% url 'contact_page' %}       ">Contact</a></li>
                                         </ul>
@@ -105,7 +118,7 @@
 
 {% block contents  %}
 
-{% endblock contents  %}}
+{% endblock contents  %}
 
     
 
@@ -137,6 +150,7 @@
                                 <ul>  
                                     <li><a href="{% url 'about_page' %}">About Us</a></li>
                                     <li><a href="{% url 'service_page' %}">Services</a></li>
+                                 >
                                     <li><a href="{% url 'contact_page' %}"> Contact Us</a></li>
                                     
                             </div>

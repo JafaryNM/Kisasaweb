@@ -98,3 +98,34 @@ div#about-img img {
 .about-back-img.d-none.d-lg-block {
     padding-top: 8px;
 }
+.profile{
+    border:solid 2px #0e0ea0;
+}
+.contact-info__icon i {
+    margin-right:-10px;
+    font-size: 20px !important;
+}
+.profile-details>h2{
+    color:#0e0ea0
+}
+.team-details.padding-bottom.p-5 {
+    background: #fcfcfc;
+}
+#profile img.card-img.rounded-0 {
+    width: 16px ;
+    padding: 0px;
+    margin: 12px;
+    
+}
+.content-point {
+    display: flex !important;
+}
+.team-details.padding-bottom.p-5 {
+    background: #fcfcfc;
+    border-top: 5px solid red;
+}
+
+ul.submenu.secondsubmen {
+    left: 150px !important;
+ 
+}

@@ -18,3 +18,15 @@ class ContactUs(TemplateView):
 
 class ServicesPage (TemplateView):
     template_name='services.html'
+
+class SingleProfile(TemplateView):
+    template_name='masanja.html'
+
+class SingleProfileNkunda(TemplateView):
+    template_name='nkunda.html'
+
+class OrganizationTemplate(TemplateView):
+    template_name='org.html'
+
+class VisionMissionTemplate(TemplateView):
+    template_name='vision_mission.html'

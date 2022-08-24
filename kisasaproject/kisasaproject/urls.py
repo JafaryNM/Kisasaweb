@@ -18,5 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include('kisasaweb.urls'))
+    path("", include('kisasaweb.urls')),
+    path("crud/", include('kisasacrud.urls'))
+
 ]

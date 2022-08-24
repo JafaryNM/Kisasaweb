@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block contents %}
+ 
+{% load static %}
+<div class="slider-area ">
+    <div class="single-slider hero-overly slider-height2 d-flex align-items-center" data-background="{% static 'assets/img/hero/about.jpg'%}" style="background-image: url(&quot;assets/img/hero/about.jpg&quot;);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap">
+
+                        <h2>Organization Structure </h2>
+                          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-10 p-4 m-5">
+        
+    <div class="blog_item_img">
+        <img class="card-img rounded-0" src="{% static 'assets/img/blog/org.JFIF '%}" alt="">
+       
+ 
+    </div>
+  </div>
+
+</div>
+{% endblock contents %}

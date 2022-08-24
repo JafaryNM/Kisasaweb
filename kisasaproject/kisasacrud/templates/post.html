@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block contents %}
+{% load static %}
+
+<div class="bg-light py-5 album">
+    
+    <div class="container">
+        <div class="row">
+
+            {% for core in post_list %}
+        
+            <div class="col-md-4">
+                <a class='btn btn success p-4 m-4 rounded'> Add User </a>
+                <div class="card mb-4 box-shadow">
+                    <img class="card-img rounded-0" src="{% static 'assets/img/blog/single_blog_3.jpg'%}" alt="">
+                    <div  class="card-body">
+                        <h4><a href="{{core.get_absolute_url}}">{{core.title}}</a></h4>
+                         <p class="card-text"> </p>
+                         <div class="d-flex justify-content-between align-items-center">
+                            <div class="">
+                                <small class="text-muted">9min</small>
+                            </div>
+                           
+                         </div>
+                        <a> View </a>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            {% endfor %}
+            
+        </div>
+    </div>
+    
+
+</div>
+{% endblock contents %}
+

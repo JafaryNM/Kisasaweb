@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block contents %}
+{% load static %}
+<div class="container">
+    <div class="row">
+        <div class="col-12 pt-5">
+            <img class="card-img rounded-0" src="{% static 'assets/img/blog/single_blog_3.jpg'%}" alt="">
+
+            <h2 class="pt-5"> {{post.title}} </h2>
+            <p>{{post.excerpt}} </p>
+        </div>
+    </div>
+</div>
+
+{% endblock contents %}
